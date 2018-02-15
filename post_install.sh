@@ -27,4 +27,4 @@ cd testnode
 #bitcore install insight-ui
 
 # Launch bitcored
-#bitcored
+bitcored
