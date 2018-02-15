@@ -49,7 +49,8 @@ While the container is running, to set properly a **bitcore** node execute this 
 $ source .bashrc && ./post_install.sh
 ```
 
-After the post install setup, to run and test your **bitcore** node just execute:
+After the post install setup to run your **bitcore** node, update again your `.bashrc` and 
+inside your `testnode` dir execute:
 
 ```bash
 $ bitcored
