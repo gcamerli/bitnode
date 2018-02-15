@@ -19,4 +19,3 @@ npm install -g bitcore@$BITCORE_JS
 
 # Create first node
 bitcore create testnode
-cd testnode
