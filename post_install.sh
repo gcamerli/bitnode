@@ -15,4 +15,3 @@ npm install -g creacore
 
 # Create first node
 creacore create testnode
-cd testnode
