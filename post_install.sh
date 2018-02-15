@@ -1,8 +1,7 @@
 #!/bin/sh
 # ./post_install.sh
 
-# Set nvm
-export NVM_DIR=$HOME/.nvm
+# Set nvm version
 export NODE_VERSION=8.2.0
 
 # Load nvm
@@ -17,6 +16,3 @@ npm install -g creacore
 # Create first node
 creacore create testnode
 cd testnode
-
-# Launch creacored
-creacored
