@@ -18,9 +18,5 @@ npm install -g creacore
 creacore create testnode
 cd testnode
 
-# Install insight modules
-#creacore install insight-crea-api
-#creacore install insight-crea-ui
-
 # Launch creacored
-#creacored
+creacored
