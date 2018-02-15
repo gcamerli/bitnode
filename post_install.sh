@@ -11,7 +11,7 @@ export NODE_VERSION=8.2.0
 # Download nvm version
 nvm install $NODE_VERSION
 
-# Install bitcore
+# Install creacore
 npm install -g creacore
 
 # Create first node
@@ -22,5 +22,5 @@ cd testnode
 #creacore install insight-crea-api
 #creacore install insight-crea-ui
 
-# Launch bitcored
+# Launch creacored
 #creacored
