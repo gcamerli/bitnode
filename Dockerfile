@@ -1,6 +1,6 @@
 FROM base/archlinux:latest
 
-LABEL maintainer="https://gcamer.li"
+LABEL maintainer="Gius. Camerlingo <gcamerli@gmail.com>"
 
 # Add name to Docker image
 ENV NAME=bitnode
