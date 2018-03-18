@@ -36,7 +36,7 @@ $ source .zshrc && ./post_install.sh
 After the **post install** setup, update again your `.zshrc` and from your `testnode` dir execute:
 
 ```bash
-$ bitcored
+$ creacored
 ```
 
 ### **Config**
