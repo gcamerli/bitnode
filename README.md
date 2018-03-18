@@ -26,31 +26,16 @@ To automate the operations with **docker** use the following scripts:
 + [clean.sh](script/clean.sh)
 + [remove.sh](script/remove.sh)
 
-#### **Build**
-
-To build **bitnode** as a docker container execute:
-
-```bash
-$ ./script/build.sh
-```
-#### **Run**
-
-To execute **bitnode** in an _interactive_ mode:
-
-```bash
-$ ./script/run.sh
-```
-
 ### **Usage**
 
-While the container is running, to set properly a **bitcore** node execute this command:
+While the container is running, to set properly a **bitcore** node execute:
 
 ```bash
-$ source .bashrc && ./post_install.sh
+$ source .zshrc && ./post_install.sh
 ```
 
-After the post install setup to run your **bitcore** node, update again your `.bashrc` and 
-inside your `testnode` dir execute:
+After the **post install** setup, update again your `.zshrc` and 
+from your `testnode` dir execute:
 
 ```bash
 $ bitcored
